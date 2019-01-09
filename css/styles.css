@@ -1,20 +1,61 @@
+@media screen and (min-width: 1000px) {
 .Left{
   float:left;
-  width:325px;
-  background-color:#ff0000
+  width:1000px;
+  background-color:#440000;
 }
 .Center{
   float:left;
-  width:325px;
-  background-color:#00ff00
+  width:1000px;
+  background-color:#004400;
 }
 .Right
 {
   float:left;
-  width:325px;
+  width:1000px;
+  background-color:#000044;
+
+}
+}
+@media screen and (max-width: 1000px) {
+.Left{
+  float:left;
+  width:700px;
+  background-color:#aa0000;
+}
+.Center{
+  float:left;
+  width:700px;
+  background-color:#00aa00;
+}
+.Right
+{
+  float:left;
+  width:700px;
+  background-color:#0000aa;
+
+}
+}
+@media screen and (max-width: 480px) {
+.Left{
+  float:left;
+  width:300px;
+  background-color:#ff0000;
+}
+.Center{
+  float:left;
+  width:300px;
+  background-color:#00ff00;
+}
+.Right
+{
+  float:left;
+  width:300px;
   background-color:#0000ff;
 
 }
+}
+
 
 img
 {
