@@ -1,20 +1,26 @@
 @media screen and (min-width: 1000px) {
 .Left{
   float:left;
-  width:1000px;
+  width:300px;
   background-color:#440000;
 }
 .Center{
   float:left;
-  width:1000px;
+  width:300px;
   background-color:#004400;
 }
 .Right
 {
   float:left;
-  width:1000px;
+  width:300px;
   background-color:#000044;
 
+}
+img
+{
+  height:300px;
+  width:300px;
+  float:left;
 }
 }
 @media screen and (max-width: 1000px) {
@@ -23,53 +29,59 @@
   }
 .Left{
   float:left;
-  width:700px;
+  width:200px;
   background-color:#aa0000;
 }
 .Center{
   float:left;
-  width:700px;
+  width:200px;
   background-color:#00aa00;
 }
 .Right
 {
   float:left;
-  width:700px;
+  width:200px;
   background-color:#0000aa;
-
 }
-}
-@media screen and (max-width: 480px) {
-  div {
-    margin: 8px;
+  img
+  {
+    height:200px;
+    width:200px;
+    float:left;
   }
-.Left{
-  float:left;
-  width:300px;
-  background-color:#ff0000;
 }
-.Center{
-  float:left;
-  width:300px;
-  background-color:#00ff00;
-  border: 8px dotted purple;
-}
-.Right
+@media screen and (max-width: 480px)
 {
-  float:left;
-  width:300px;
-  background-color:#0000ff;
-  border: 4px solid red;
-}
+    div {
+      margin: 8px;
+        }
+    .Left{
+      float:left;
+      width:100px;
+      background-color:#ff0000;
+          }
+    .Center{
+      float:left;
+      width:100px;
+      background-color:#00ff00;
+      border: 8px dotted purple;
+            }
+    .Right{
+      float:left;
+      width:100px;
+      background-color:#0000ff;
+      border: 4px solid red;
+          }
+          img
+          {
+            height:100px;
+            width:100px;
+            float:left;
+          }
 }
 
 
-img
-{
-  height:300px;
-  width:300px;
-  float:left;
-}
+
 
 .Right li{
   color:#00ff00;
