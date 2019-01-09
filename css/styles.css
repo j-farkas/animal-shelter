@@ -1,0 +1,36 @@
+.Left{
+  float:left;
+  width:325px;
+  background-color:#ff0000
+}
+.Center{
+  float:left;
+  width:325px;
+  background-color:#00ff00
+}
+.Right
+{
+  float:left;
+  width:325px;
+  background-color:#0000ff;
+
+}
+
+img
+{
+  height:300px;
+  width:300px;
+  float:left;
+}
+
+.Right li{
+  color:#00ff00;
+}
+
+.Left li{
+  color:#0000ff;
+}
+
+.Center li{
+  color:#ff0000;
+}
